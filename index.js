@@ -10,6 +10,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
+        copper: 10,
+        iron: 7,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 1000
     },
     {
@@ -21,6 +31,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
+        copper: 11,
+        iron: 8,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 1000
     },
     {
@@ -32,6 +52,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
+        copper: 10,
+        iron: 10,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 1500
     },
     {
@@ -43,6 +73,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
+        copper: 9,
+        iron: 11,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 2,
+        coal: 0,
         price: 2000
     },
     {
@@ -54,6 +94,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 11,
+        iron: 12,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 10000
     },
     {
@@ -65,6 +115,16 @@ let guns = [
         firemodes: "Double-Action",
         legal: true,
         ammo: "pistol",
+        copper: 10,
+        iron: 7,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 5,
+        coal: 0,
         price: 3500
     },
     {
@@ -76,6 +136,16 @@ let guns = [
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 12,
+        iron: 14,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 2,
+        coal: 0,
         price: 7000
     },
     {
@@ -87,6 +157,16 @@ let guns = [
         firemodes: "Doesn't fire ammo",
         legal: true,
         ammo: "Doesn't accept ammo",
+        copper: 10,
+        iron: 7,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 2000
     },
     {
@@ -98,6 +178,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 16,
+        iron: 18,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 7000
     },
     {
@@ -109,6 +199,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 16,
+        iron: 16,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 1,
+        coal: 0,
         price: 10000
     },
     {
@@ -120,6 +220,16 @@ let guns = [
         firemodes: "Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 10,
+        iron: 14,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 6,
+        coal: 0,
         price: 5000
     },
     {
@@ -131,6 +241,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "rifle",
+        copper: 16,
+        iron: 16,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 3,
+        coal: 0,
         price: 5000
     },
     {
@@ -142,6 +262,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 17,
+        iron: 19,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 2,
+        coal: 0,
         price: 9000
     },
     {
@@ -153,6 +283,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
+        copper: 10,
+        iron: 10,
+        silver: 1,
+        gold: 2,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 3,
+        coal: 0,
         price: 3000
     },
     {
@@ -164,6 +304,16 @@ let guns = [
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 2,
+        iron: 14,
+        silver: 6,
+        gold: 6,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 9,
+        coal: 0,
         price: 9500
     },
     {
@@ -175,6 +325,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
+        copper: 10,
+        iron: 12,
+        silver: 0,
+        gold: 2,
+        titanium: 0,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 3,
+        coal: 0,
         price: 3500
     },
     {
@@ -186,6 +346,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 16,
+        iron: 16,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 5,
+        coal: 0,
         price: 15000
     },
     {
@@ -197,6 +367,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 16,
+        iron: 16,
+        silver: 4,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 7,
+        coal: 0,
         price: 14000
     },
     {
@@ -208,6 +388,16 @@ let guns = [
         firemodes: "Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 17,
+        iron: 17,
+        silver: 5,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 6,
+        coal: 0,
         price: 20000
     },
     {
@@ -219,6 +409,16 @@ let guns = [
         firemodes: "Pump-Action",
         legal: false,
         ammo: "shotgun",
+        copper: 7,
+        iron: 9,
+        silver: 3,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 12,
+        willow: 0,
+        steel: 11,
+        coal: 0,
         price: 9500
     },
     {
@@ -230,6 +430,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 5,
+        iron: 17,
+        silver: 9,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 14,
+        coal: 0,
         price: 14500
     },
     {
@@ -241,6 +451,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 14,
+        iron: 15,
+        silver: 0,
+        gold: 11,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 13,
+        coal: 0,
         price: 16000
     },
     {
@@ -252,6 +472,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 16,
+        iron: 16,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 10,
+        coal: 0,
         price: 15000
     },
     {
@@ -263,6 +493,16 @@ let guns = [
         firemodes: "Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 14,
+        iron: 16,
+        silver: 0,
+        gold: 13,
+        titanium: 1,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 10,
+        coal: 0,
         price: 18000
     },
     {
@@ -274,6 +514,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "pistol",
+        copper: 2,
+        iron: 15,
+        silver: 8,
+        gold: 8,
+        titanium: 2,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 5,
+        coal: 0,
         price: 14000
     },
     {
@@ -285,6 +535,16 @@ let guns = [
         firemodes: "Bolt-Action",
         legal: false,
         ammo: "sniper",
+        copper: 8,
+        iron: 14,
+        silver: 22,
+        gold: 2,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 12,
+        steel: 20,
+        coal: 0,
         price: 25000
     },
     {
@@ -296,6 +556,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 0,
+        iron: 14,
+        silver: 20,
+        gold: 8,
+        titanium: 5,
+        wood: 0,
+        maple: 0,
+        willow: 12,
+        steel: 17,
+        coal: 0,
         price: 18000
     },
     {
@@ -307,6 +577,16 @@ let guns = [
         firemodes: "Pump-Action",
         legal: false,
         ammo: "shotgun",
+        copper: 0,
+        iron: 16,
+        silver: 10,
+        gold: 8,
+        titanium: 0,
+        wood: 0,
+        maple: 12,
+        willow: 0,
+        steel: 7,
+        coal: 0,
         price: 15000
     },
     {
@@ -318,6 +598,16 @@ let guns = [
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 15,
+        iron: 16,
+        silver: 8,
+        gold: 11,
+        titanium: 1,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 12,
+        coal: 0,
         price: 20000
     },
     {
@@ -329,18 +619,38 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 5,
+        iron: 19,
+        silver: 8,
+        gold: 0,
+        titanium: 1,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 11,
+        coal: 0,
         price: 18000
     },
     {
         name: "HK MP7A1",
         class: "Rifle",
         amount: 0,
-        level: 0,
+        level: 70,
         mag: 30,
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "pistol",
-        price: null
+        copper: 2,
+        iron: 12,
+        silver: 8,
+        gold: 5,
+        titanium: 3,
+        wood: 8,
+        maple: 0,
+        willow: 0,
+        steel: 7,
+        coal: 0,
+        price: 250000
     },
     {
         name: "ACR-E",
@@ -351,18 +661,38 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 17,
+        iron: 18,
+        silver: 0,
+        gold: 10,
+        titanium: 2,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 12,
+        coal: 0,
         price: 18000
     },
     {
         name: "FAMAS F1",
         class: "Rifle",
         amount: 0,
-        level: 0,
+        level: 75,
         mag: 30,
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
         ammo: "rifle",
-        price: null
+        copper: 5,
+        iron: 17,
+        silver: 8,
+        gold: 0,
+        titanium: 2,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 12,
+        coal: 0,
+        price: 250000
     },
     {
         name: "KSG-12",
@@ -373,6 +703,16 @@ let guns = [
         firemodes: "Pump-Action",
         legal: false,
         ammo: "shotgun",
+        copper: 0,
+        iron: 18,
+        silver: 10,
+        gold: 8,
+        titanium: 5,
+        wood: 0,
+        maple: 12,
+        willow: 0,
+        steel: 14,
+        coal: 0,
         price: 19000
     },
     {
@@ -384,6 +724,16 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 17,
+        iron: 16,
+        silver: 8,
+        gold: 13,
+        titanium: 4,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 16,
+        coal: 0,
         price: 20000
     },
     {
@@ -395,18 +745,38 @@ let guns = [
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
         ammo: "rifle",
+        copper: 11,
+        iron: 11,
+        silver: 20,
+        gold: 13,
+        titanium: 7,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 16,
+        coal: 0,
         price: 25000
     },
     {
         name: "TAC-338",
         class: "Rifle",
         amount: 0,
-        level: "0",
+        level: "85",
         mag: 5,
         firemodes: "Bolt-Action",
         legal: false,
         ammo: "sniper",
-        price: null
+        copper: 0,
+        iron: 40,
+        silver: 17,
+        gold: 6,
+        titanium: 5,
+        wood: null,
+        maple: null,
+        willow: 12,
+        steel: 0,
+        coal: null,
+        price: 5000000
     },
     {
         name: "Silver Baller",
@@ -417,7 +787,17 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: true,
         ammo: "pistol",
-        price: null
+        copper: 9,
+        iron: 12,
+        silver: null,
+        gold: 2,
+        titanium: null,
+        wood: 8,
+        maple: 4,
+        willow: null,
+        steel: 5,
+        coal: 0,
+        price: 100000
     },
     {
         name: "L115",
@@ -428,7 +808,17 @@ let guns = [
         firemodes: "Bolt-Action",
         legal: false,
         ammo: "sniper",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 1100000
     },
     {
         name: "Magnum .357",
@@ -439,7 +829,17 @@ let guns = [
         firemodes: "Double-Action",
         legal: true,
         ammo: "pistol",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 300000
     },
     {
         name: "HK-416",
@@ -450,7 +850,17 @@ let guns = [
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
         ammo: "rifle",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 1800000
     },
     {
         name: "L85A2",
@@ -461,7 +871,17 @@ let guns = [
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
         ammo: "rifle",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 1400000
     },
     {
         name: "M1 Carbine",
@@ -472,7 +892,17 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: false,
         ammo: "rifle",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 1750000
     },
     {
         name: "M1 Garand",
@@ -483,7 +913,17 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: false,
         ammo: "rifle",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 1600000
     },
     {
         name: "MP-40",
@@ -494,7 +934,17 @@ let guns = [
         firemodes: "Automatic",
         legal: false,
         ammo: "pistol",
-        price: null
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
+        price: 800000
     },
     {
         name: "BMG-50",
@@ -505,6 +955,16 @@ let guns = [
         firemodes: "Semi-Automatic",
         legal: false,
         ammo: "sniper",
+        copper: null,
+        iron: null,
+        silver: null,
+        gold: null,
+        titanium: null,
+        wood: null,
+        maple: null,
+        willow: null,
+        steel: null,
+        coal: null,
         price: null
     },
     {
@@ -516,6 +976,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 4,
+        iron: 4,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 4,
+        coal: 0,
         price: 1500
     },
     {
@@ -527,6 +997,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 4,
+        iron: 4,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 2,
+        coal: 0,
         price: 500
     },
     {
@@ -538,6 +1018,16 @@ let guns = [
         firemodes: "",
         legal: false,
         ammo: "",
+        copper: 2,
+        iron: 1,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 700
     },
     {
@@ -549,6 +1039,16 @@ let guns = [
         firemodes: "",
         legal: false,
         ammo: "",
+        copper: 0,
+        iron: 2,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 600
     },
     {
@@ -560,6 +1060,16 @@ let guns = [
         firemodes: "",
         legal: false,
         ammo: "",
+        copper: 6,
+        iron: 8,
+        silver: 0,
+        gold: 4,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 3,
+        coal: 0,
         price: 5000
     },
     {
@@ -571,6 +1081,17 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 4,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 2,
+        coal: 0,
+        plastic: 10,
         price: 1500
     },
     {
@@ -582,6 +1103,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 3,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 275
     },
     {
@@ -593,6 +1124,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 3,
+        iron: 3,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 350
     },
     {
@@ -604,6 +1145,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 3,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 350
     },
     {
@@ -615,6 +1166,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 3,
+        coal: 0,
         price: 800
     },
     {
@@ -626,6 +1187,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 0,
+        silver: 0,
+        gold: 5,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 30,
+        coal: 0,
         price: 19000
     },
     {
@@ -637,6 +1208,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 1,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 125
     },
     {
@@ -648,6 +1229,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 1,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 200
     },
     {
@@ -659,6 +1250,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 1,
+        coal: 0,
         price: 650
     },
     {
@@ -670,6 +1271,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 0,
+        silver: 1,
+        gold: 0,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 250
     },
     {
@@ -681,6 +1292,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 0,
+        silver: 0,
+        gold: 1,
+        titanium: 0,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 300
     },
     {
@@ -692,6 +1313,16 @@ let guns = [
         firemodes: "",
         legal: true,
         ammo: "",
+        copper: 0,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 1,
+        wood: 0,
+        maple: 0,
+        willow: 0,
+        steel: 0,
+        coal: 0,
         price: 375
     }
 ];
@@ -707,7 +1338,14 @@ let attachments = [
         abbreviation: "S-Blade",
         level: 10,
         description: "A short blade for the kabar knife.",
-        price: null
+        copper: 7,
+        iron: 1,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 0
     },
     {
         name: "Tundra 9MM Barrel",
@@ -716,7 +1354,14 @@ let attachments = [
         abbreviation: "Tundra",
         level: 12,
         description: "A Tundra 9MM barrel used on the MP5.",
-        price: null
+        copper: 6,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "M2 Pistol Suppressor",
@@ -725,7 +1370,14 @@ let attachments = [
         abbreviation: "M2",
         level: 18,
         description: "A M2 pistol suppressor used for some pistols such as the M1911.",
-        price: null
+        copper: 12,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1000
     },
     {
         name: "Unfolded Stock",
@@ -734,7 +1386,14 @@ let attachments = [
         abbreviation: "Stock-U",
         level: 20,
         description: "An unfolded stock, sometimes it is just too much.",
-        price: null
+        copper: 5,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "MP5 Suppressor",
@@ -743,7 +1402,14 @@ let attachments = [
         abbreviation: "MP5-SD",
         level: 20,
         description: "An MP5 suppressor.",
-        price: null
+        copper: 12,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1000
     },
     {
         name: "Long Barrel MR96",
@@ -752,7 +1418,14 @@ let attachments = [
         abbreviation: "MR96-LB",
         level: 20,
         description: "A long barrel for the MR96.",
-        price: null
+        copper: 8,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "Extended 9MM Barrel",
@@ -761,7 +1434,14 @@ let attachments = [
         abbreviation: "EBarrel",
         level: 20,
         description: "An extended barrel for the Mac-11, look like you own the place.",
-        price: null
+        copper: 7,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "EoTech 552",
@@ -770,7 +1450,14 @@ let attachments = [
         abbreviation: "Eotech",
         level: 20,
         description: "An EoTech 552 sight for a lot of weapons.",
-        price: null
+        copper: 2,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 250
     },
     {
         name: "MP5 Retractable Stock",
@@ -779,7 +1466,14 @@ let attachments = [
         abbreviation: "MP5-S",
         level: 20,
         description: "A retractable stock used on the MP5.",
-        price: null
+        copper: 8,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "AK-74 Heavy Stock",
@@ -788,7 +1482,14 @@ let attachments = [
         abbreviation: "AK-HS",
         level: 25,
         description: "A heavy stock used on a AK-74.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "AK-74 Shortened Barrel",
@@ -797,7 +1498,14 @@ let attachments = [
         abbreviation: "AK-SB",
         level: 25,
         description: "A shortened barrel used on a AK-74.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "AK-74 Foldable Stock",
@@ -806,7 +1514,14 @@ let attachments = [
         abbreviation: "AK-FS",
         level: 25,
         description: "A foldable stock used on a AK-74.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "Bowie Blade",
@@ -815,7 +1530,14 @@ let attachments = [
         abbreviation: "B-Blade",
         level: 25,
         description: "A bowie blade for the kabar knife.",
-        price: null
+        copper: 14,
+        iron: 1,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 0
     },
     {
         name: "PSO-1",
@@ -824,7 +1546,14 @@ let attachments = [
         abbreviation: "AK-PSO",
         level: 25,
         description: "A PSO-1 sight used for a lot of weapons.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "PBS-1 Barrel",
@@ -833,7 +1562,14 @@ let attachments = [
         abbreviation: "AK-PBS",
         level: 25,
         description: "A PBS-1 barrel used for the AK-74.",
-        price: null
+        copper: 15,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1000
     },
     {
         name: "AK-74 RPK Magazine",
@@ -842,7 +1578,14 @@ let attachments = [
         abbreviation: "AK-RPKM",
         level: 25,
         description: "An RPK Magazine used on a AK-74.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "AK-74 RPK",
@@ -851,7 +1594,14 @@ let attachments = [
         abbreviation: "AK-RPKR",
         level: 25,
         description: "An RPK receiver that can only be used on a AK-74.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "X2-LAM",
@@ -860,7 +1610,14 @@ let attachments = [
         abbreviation: "X2-LAM",
         level: 30,
         description: "An X2-LAM constructed by Labyrinth Inc.",
-        price: null
+        copper: 12,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "Kobra Sight",
@@ -869,7 +1626,14 @@ let attachments = [
         abbreviation: "Kobra",
         level: 30,
         description: "A Kobra sight used for a lot of weapons.",
-        price: null
+        copper: 2,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 250
     },
     {
         name: "Foregrip",
@@ -878,7 +1642,14 @@ let attachments = [
         abbreviation: "FGrip",
         level: 30,
         description: "A foregrip for a lot of weapons.",
-        price: null
+        copper: 2,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 250
     },
     {
         name: "Magpul Handguard",
@@ -887,7 +1658,14 @@ let attachments = [
         abbreviation: "MagH",
         level: 30,
         description: "A Magpul handguard used on the AR-15.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "Match Grade Ammo Type",
@@ -896,7 +1674,14 @@ let attachments = [
         abbreviation: "",
         level: 30,
         description: "A Match Grade Ammo Type used for a lot of weapons.",
-        price: null
+        copper: 2,
+        iron: 2,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 2,
+        coal: 0,
+        price: 1250
     },
     {
         name: "EXT RIS",
@@ -905,7 +1690,14 @@ let attachments = [
         abbreviation: "E-RIS",
         level: 30,
         description: "An EXT RIS handguard used on the AR-15.",
-        price: null
+        copper: 15,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1100
     },
     {
         name: "Aimpoint Sight",
@@ -914,7 +1706,14 @@ let attachments = [
         abbreviation: "AP",
         level: 30,
         description: "An Aimpoint sight used for a lot of weapons.",
-        price: null
+        copper: 2,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 250
     },
     {
         name: "AR-15 Heavy Stock",
@@ -923,7 +1722,14 @@ let attachments = [
         abbreviation: "AR-15 HS",
         level: 30,
         description: "An AR-15 Heavy Stock used with the AR-15.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "Short Dot Sight",
@@ -932,7 +1738,14 @@ let attachments = [
         abbreviation: "SDot",
         level: 30,
         description: "A Short Dot sight used for a lot of weapons.",
-        price: null
+        copper: 2,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 250
     },
     {
         name: "AR-15 QUAD Magazine",
@@ -941,7 +1754,14 @@ let attachments = [
         abbreviation: "Q-MAG",
         level: 30,
         description: "An AR-15 QUAD Magazine.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "M-TI Sights",
@@ -950,7 +1770,14 @@ let attachments = [
         abbreviation: "M-TI",
         level: 30,
         description: "An M-TI Sight constructed by Labyrinth Inc. It can be used on the AR-15, Deagle, G3A3, and MP5.",
-        price: null
+        copper: 12,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "ACOG Sights",
@@ -959,7 +1786,14 @@ let attachments = [
         abbreviation: "ACOG",
         level: 30,
         description: "An ACOG sight. It can used on teh AR-15, Deagle, G3A3, and MP5.",
-        price: null
+        copper: 15,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1250
     },
     {
         name: "Backup Ironsights",
@@ -968,7 +1802,14 @@ let attachments = [
         abbreviation: "BUIS",
         level: 30,
         description: "BUIS, used by the AR-15.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "Long Barrel",
@@ -977,7 +1818,14 @@ let attachments = [
         abbreviation: "LB",
         level: 30,
         description: "A long barrel.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 600
     },
     {
         name: "SAKER Suppressor",
@@ -986,7 +1834,14 @@ let attachments = [
         abbreviation: "SAKER",
         level: 30,
         description: "A SAKER suppressor used on the AR-15, Deagle, and G3A3.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "AN/PEQ-15",
@@ -995,7 +1850,14 @@ let attachments = [
         abbreviation: "AN/PEQ",
         level: 30,
         description: "An AN/PEQ-15 constructed by Labyrinth Inc. It can be used on the AR-15 and G3A3.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 600
     },
     {
         name: "AR-15 Sturdy Stock",
@@ -1004,7 +1866,14 @@ let attachments = [
         abbreviation: "AR-15 S",
         level: 30,
         description: "A Sturdy Stock used on the AR-15.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "RIS",
@@ -1013,7 +1882,14 @@ let attachments = [
         abbreviation: "RIS",
         level: 30,
         description: "An RIS handguard used on the AR-15.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "Desert Eagle Ext. Barrel",
@@ -1022,7 +1898,14 @@ let attachments = [
         abbreviation: "D-Ext",
         level: 35,
         description: "An extended barrel for the Desert Eagle.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 750
     },
     {
         name: "Desert Eagle Compensator",
@@ -1031,7 +1914,14 @@ let attachments = [
         abbreviation: "D-Comp",
         level: 35,
         description: "A compensator for the Desert Eagle.",
-        price: null
+        copper: 13,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 850
     },
     {
         name: "NXS 8x Scope",
@@ -1040,7 +1930,14 @@ let attachments = [
         abbreviation: "NXS",
         level: 40,
         description: "An NXS constructed by Devul Inc.",
-        price: null
+        copper: 15,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1250
     },
     {
         name: "ATLAS Bipod",
@@ -1049,7 +1946,14 @@ let attachments = [
         abbreviation: "BIP",
         level: 40,
         description: "A bipod used by the G3A3.",
-        price: null
+        copper: 12,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 850
     },
     {
         name: "G3A3 SG1 Scope",
@@ -1058,7 +1962,14 @@ let attachments = [
         abbreviation: "SG1",
         level: 40,
         description: "An SG1 scope used by the G3A3.",
-        price: null
+        copper: 15,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 1100
     },
     {
         name: "Old Rifle Suppressor",
@@ -1067,7 +1978,14 @@ let attachments = [
         abbreviation: "RifleSD",
         level: 45,
         description: "Honestly, this may or may not work...",
-        price: null
+        copper: 14,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 900
     },
     {
         name: "Silverballer Suppressor",
@@ -1076,7 +1994,14 @@ let attachments = [
         abbreviation: "S-SD",
         level: 47,
         description: "A suppressor for the Silverballer.",
-        price: null
+        copper: 14,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 900
     },
     {
         name: "Silverballer Long Slide",
@@ -1085,7 +2010,14 @@ let attachments = [
         abbreviation: "S-LS",
         level: 47,
         description: "A long slide for the Silverballer.",
-        price: null
+        copper: 9,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 500
     },
     {
         name: "Magnum Ammo Type",
@@ -1094,7 +2026,14 @@ let attachments = [
         abbreviation: "",
         level: 60,
         description: "A Magnum Ammo Type used for a lot of weapons.",
-        price: null
+        copper: 0,
+        iron: 4,
+        silver: 0,
+        gold: 4,
+        titanium: 0,
+        steel: 4,
+        coal: 0,
+        price: 2000
     },
     {
         name: "P-MAG (HK Variant)",
@@ -1103,7 +2042,14 @@ let attachments = [
         abbreviation: "P-MAG",
         level: 88,
         description: "This is a really cool looking magazine, use it. (Also increases magazine size to 34)",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 600
     },
     {
         name: "HK Long Barrel",
@@ -1112,7 +2058,14 @@ let attachments = [
         abbreviation: "HK-LB",
         level: 89,
         description: "A Long Barrel meant for the HK416.",
-        price: null
+        copper: 10,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 600
     },
     {
         name: "HK Reflex Sight",
@@ -1121,7 +2074,14 @@ let attachments = [
         abbreviation: "HK-RE",
         level: 89,
         description: "A Reflex sight meant for the HK416 and other weapons.",
-        price: null
+        copper: 2,
+        iron: 0,
+        silver: 0,
+        gold: 0,
+        titanium: 0,
+        steel: 0,
+        coal: 0,
+        price: 350
     },
     {
         name: "M203 GL",
@@ -1130,7 +2090,173 @@ let attachments = [
         abbreviation: "M203",
         level: 99,
         description: "An M203 Grenade Launcher used on the AR-15, G3A3, and other weapons.",
-        price: null
+        copper: 0,
+        iron: 20,
+        silver: 16,
+        gold: 10,
+        titanium: 5,
+        steel: 0,
+        coal: 0,
+        price: 11000
+    }
+];
+
+for (i = 0; i < guns.length; i++) {
+    guns[i].coal = ((guns[i].copper * 1) + (guns[i].iron * 1) + ((guns[i].steel * 3) * 1) + (guns[i].steel * 1) + (guns[i].silver * 1) + (guns[i].gold * 1) + (guns[i].titanium * 1));
+    guns[i].copper = (guns[i].copper * 2);
+    guns[i].iron = (guns[i].iron * 2);
+    guns[i].iron += (guns[i].steel * 4);
+    guns[i].silver = (guns[i].silver * 2);
+    guns[i].gold = (guns[i].gold * 2);
+    guns[i].titanium = (guns[i].titanium * 2);
+}
+
+for (i = 0; i < attachments.length; i++) {
+    attachments[i].coal = ((attachments[i].copper * 1) + (attachments[i].iron * 1) + ((attachments[i].steel * 3) * 1) + (attachments[i].steel * 1) + (attachments[i].silver * 1) + (attachments[i].gold * 1) + (attachments[i].titanium * 1));
+    attachments[i].copper = (attachments[i].copper * 2);
+    attachments[i].iron = (attachments[i].iron * 2);
+    attachments[i].iron += (attachments[i].steel * 4);
+    attachments[i].silver = (attachments[i].silver * 2);
+    attachments[i].gold = (attachments[i].gold * 2);
+    attachments[i].titanium = (attachments[i].titanium * 2);
+}
+
+var materials = [
+    {
+        name: "Copper Ore",
+        image: "images/ores/copper.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Coal Ore",
+        image: "images/ores/coal.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Iron Ore",
+        image: "images/ores/iron.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Silver Ore",
+        image: "images/ores/silver.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Gold Ore",
+        image: "images/ores/gold.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Titanium Ore",
+        image: "images/ores/titanium.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Wood Log",
+        image: "images/ores/log.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Maple Log",
+        image: "images/ores/log.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Willow Log",
+        image: "images/ores/log.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Money",
+        image: "images/ores/cash.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    }
+];
+
+var extendedMaterials = [
+    {
+        name: "Copper Bar",
+        image: "images/ores/i_copper_new.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Iron Bar",
+        image: "images/ores/i_iron_new.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Steel Bar",
+        image: "images/ores/i_steel_new.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Silver Bar",
+        image: "images/ores/i_silver_new.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Gold Bar",
+        image: "images/ores/i_gold_new.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Titanium Bar",
+        image: "images/ores/i_titanium_new.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Wood Plank",
+        image: "images/ores/plank.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Maple Plank",
+        image: "images/ores/plank.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
+    },
+    {
+        name: "Willow Plank",
+        image: "images/ores/plank.png",
+        amount: 0,
+        stacks: 0,
+        remainder: 0
     }
 ];
 
