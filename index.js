@@ -635,7 +635,7 @@ let guns = [
         name: "HK MP7A1",
         class: "Rifle",
         amount: 0,
-        level: 70,
+        level: 0,
         mag: 30,
         firemodes: "Automatic, Semi-Automatic",
         legal: false,
@@ -677,7 +677,7 @@ let guns = [
         name: "FAMAS F1",
         class: "Rifle",
         amount: 0,
-        level: 75,
+        level: 0,
         mag: 30,
         firemodes: "Automatic, Burst, Semi-Automatic",
         legal: false,
@@ -761,7 +761,7 @@ let guns = [
         name: "TAC-338",
         class: "Rifle",
         amount: 0,
-        level: "85",
+        level: "0",
         mag: 5,
         firemodes: "Bolt-Action",
         legal: false,
@@ -929,7 +929,7 @@ let guns = [
         name: "MP-40",
         class: "Exotic",
         amount: 0,
-        level: 31,
+        level: 0,
         mag: 32,
         firemodes: "Automatic",
         legal: false,
@@ -3126,53 +3126,6 @@ function calculateMaterials() {
         }
     }
 
-    //Copper
-    for(i = 0; i < guns.length; i++) {
-        materials[0].amount += (guns[i].copper * guns[i].amount);
-    }
-    for(i = 0; i < attachments.length; i++) {
-        materials[0].amount += (attachments[i].copper * attachments[i].amount);
-    }
-    //Iron
-    for(i = 0; i < guns.length; i++) {
-        materials[2].amount += (guns[i].iron * guns[i].amount);
-    }
-    for(i = 0; i < attachments.length; i++) {
-        materials[2].amount += (attachments[i].iron * attachments[i].amount);
-    }
-    //Silver
-    for(i = 0; i < guns.length; i++) {
-        materials[3].amount += (guns[i].silver * guns[i].amount);
-    }
-    for(i = 0; i < attachments.length; i++) {
-        materials[3].amount += (attachments[i].silver * attachments[i].amount);
-    }
-    //Gold
-    for(i = 0; i < guns.length; i++) {
-        materials[4].amount += (guns[i].gold * guns[i].amount);
-    }
-    for(i = 0; i < attachments.length; i++) {
-        materials[4].amount += (attachments[i].gold * attachments[i].amount);
-    }
-    //Titanium
-    for(i = 0; i < guns.length; i++) {
-        materials[5].amount += (guns[i].titanium * guns[i].amount);
-    }
-    for(i = 0; i < attachments.length; i++) {
-        materials[5].amount += (attachments[i].titanium * attachments[i].amount);
-    }
-    //Wood Log
-    for(i = 0; i < guns.length; i++) {
-        materials[6].amount += (guns[i].wood * guns[i].amount);
-    }
-    //Maple Log
-    for(i = 0; i < guns.length; i++) {
-        materials[7].amount += (guns[i].maple * guns[i].amount);
-    }
-    //Willow Log
-    for(i = 0; i < guns.length; i++) {
-        materials[8].amount += (guns[i].willow * guns[i].amount);
-    }
     //Cash
     for(i = 0; i < guns.length; i++) {
         materials[9].amount += (guns[i].price * guns[i].amount);
@@ -3198,30 +3151,6 @@ function calculateMaterials() {
     extendedMaterials[6].amount = materials[6].amount / 4;
     extendedMaterials[7].amount = materials[7].amount / 4;
     extendedMaterials[8].amount = materials[8].amount / 4;
-
-    //Stacks
-    for(i = 0; i < materials.length; i++) {
-        if(i < 6) {
-            //Ores
-            materials[i].remainder = (materials[i].amount % 64);
-            materials[i].stacks = ((materials[i].amount - materials[i].remainder) / 64);
-        } else if(i < materials.length - 1) {
-            //Logs
-            materials[i].remainder = (materials[i].amount % 128);
-            materials[i].stacks = ((materials[i].amount - materials[i].remainder) / 128);
-        }
-    }
-    for(i = 0; i < extendedMaterials.length; i++) {
-        if(i < 5) {
-            //Ingots
-            extendedMaterials[i].remainder = (extendedMaterials[i].amount % 32);
-            extendedMaterials[i].stacks = ((extendedMaterials[i].amount - extendedMaterials[i].remainder) / 32);
-        } else {
-            //Planks
-            extendedMaterials[i].remainder = (extendedMaterials[i].amount % 128);
-            extendedMaterials[i].stacks = ((extendedMaterials[i].amount - extendedMaterials[i].remainder) / 128);
-        }
-    }
 
     for(i = 0; i < materials.length; i++) {
         if(i != materials.length - 1) {
