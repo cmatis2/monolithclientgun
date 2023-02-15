@@ -2123,69 +2123,6 @@ for (i = 0; i < attachments.length; i++) {
 
 var materials = [
     {
-        name: "Copper Ore",
-        image: "images/ores/copper.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Coal Ore",
-        image: "images/ores/coal.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Iron Ore",
-        image: "images/ores/iron.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Silver Ore",
-        image: "images/ores/silver.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Gold Ore",
-        image: "images/ores/gold.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Titanium Ore",
-        image: "images/ores/titanium.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Wood Log",
-        image: "images/ores/log.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Maple Log",
-        image: "images/ores/log.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Willow Log",
-        image: "images/ores/log.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
         name: "Money",
         image: "images/ores/cash.png",
         amount: 0,
@@ -2195,69 +2132,6 @@ var materials = [
 ];
 
 var extendedMaterials = [
-    {
-        name: "Copper Bar",
-        image: "images/ores/i_copper_new.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Iron Bar",
-        image: "images/ores/i_iron_new.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Steel Bar",
-        image: "images/ores/i_steel_new.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Silver Bar",
-        image: "images/ores/i_silver_new.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Gold Bar",
-        image: "images/ores/i_gold_new.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Titanium Bar",
-        image: "images/ores/i_titanium_new.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Wood Plank",
-        image: "images/ores/plank.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Maple Plank",
-        image: "images/ores/plank.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    },
-    {
-        name: "Willow Plank",
-        image: "images/ores/plank.png",
-        amount: 0,
-        stacks: 0,
-        remainder: 0
-    }
 ];
 
 for(i = 0; i < guns.length; i++) {
